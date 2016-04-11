@@ -12,3 +12,9 @@ Alexa, the voice personality of Echo and other Amazon voice-enabled devices, has
 Developers can create and register *custom skills* and *smart home* skills.
 
 *Custom Skills* allow the user to say something like 'Alexa get the high tide for Seatle from TidePooler'. This is the standard interaction model that includes the wake word 'Alexa' the skill name 'TidePooler' and the request ' high tide for Seatle' plus some interchangeable filler words.
+
+_Custom Skills_ have two main requirements:
+
+- An interaction model - this configures what utterances Alexa can understand and how each one should be interpreted into a data model.
+- A back end that can receives the request, processes it, and returns a result Alexa can speak to the user. This can be hosted as an AWS lambda function or as any web-accessible service that follows the alexa REST API.
+![architecture](https://raw.githubusercontent.com/arutnik/alexa-skills-samples/master/images/askarchitecture.png)
