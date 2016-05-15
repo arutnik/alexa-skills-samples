@@ -1,6 +1,6 @@
 # alexa-skills-samples
 
-Amazon Alexa has a lot of verbose documentation, so I set up this page as a high level walkthrough of how to get started with Alexa as a developer.
+Amazon Alexa has a lot of verbose documentation, so I set up this page as a high level walkthrough of how to get started with Alexa as a developer. Please see the [Wiki](https://github.com/arutnik/alexa-skills-samples/wiki/Alexa-Skill-Interaction-Model) for more details
 
 ## Alexa Skills Kit (ASK)
 Alexa, the voice personality of Echo and other Amazon voice-enabled devices, has her capabilities broken down into 'skills'. A skill is one subject, knowledge area, or functional tool that Alexa can understand and fulfill. Some built-in skills are like getting the weather and getting sports stats. 
